@@ -1,5 +1,6 @@
 import './App.css'
 import Button from './components/Button/Button'
+import JournalItem from './components/JournalItem/JournalItem'
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <h1>Какой-то текст</h1>
       <p>Заголовок</p>
       <Button/>
+      <JournalItem/>
     </>
   )
 }
