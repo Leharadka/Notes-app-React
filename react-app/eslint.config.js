@@ -30,6 +30,9 @@ export default [
       ],
       semi: ["error", "always", { omitLastInOneLineBlock: false }],
       "comma-dangle": ["erroe", "never"],
+      quotes: ['error','single'],
+      'react/prop-types': [0],
+      'indent': ['error', 'tab']
     },
   },
 ];
